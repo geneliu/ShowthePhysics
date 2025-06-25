@@ -54,6 +54,7 @@ sphinx:
 
   extra_extensions:
     - sphinx_exercise
+    - sphinx_iframes
     
 
 html:
