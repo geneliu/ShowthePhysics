@@ -168,8 +168,8 @@ parts:
   - caption: Pocket demos
     numbered: 2
     chapters:
-    - external: https://natuurkunde.github.io/Broekzakdemos/demos.md
-    - external: https://natuurkunde.github.io/Broekzakdemos/mechanics
+    - external: https://github.com/Natuurkunde/Broekzakdemos/blob/main/content/demos.md
+    - external: https://github.com/Natuurkunde/Broekzakdemos/blob/main/content/Mechanics.md
 
   
 
