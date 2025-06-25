@@ -165,6 +165,14 @@ parts:
       - file: demos/demo56/demo56 
       - file: demos/demo98/demo98 
 
+  - caption: Pocket demos
+    numbered: 2
+    chapters:
+    - external: https://natuurkunde.github.io/Broekzakdemos/demos.md
+    - external: https://natuurkunde.github.io/Broekzakdemos/mechanics
+
+  
+
   - caption: References
     chapters:
     - file: references
