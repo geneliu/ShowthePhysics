@@ -171,8 +171,6 @@ parts:
     - external: https://github.com/Natuurkunde/Broekzakdemos/blob/main/content/demos.md
     - external: https://github.com/Natuurkunde/Broekzakdemos/blob/main/content/Mechanics.md
 
-  
-
   - caption: References
     chapters:
     - file: references
