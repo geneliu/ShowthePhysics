@@ -179,9 +179,9 @@ parts:
       - file: external/content/Heat.md
       - file: external/content/Earthscience.md    
       - file: external/content/Modernphysics.md    
-      - file: external/content/References.md
     
-    # - external: https://github.com/Natuurkunde/Broekzakdemos/blob/main/content/demos.md
+    
+      - external: https://github.com/Natuurkunde/Broekzakdemos/blob/main/content/demos.md
     # - external: https://github.com/Natuurkunde/Broekzakdemos/blob/main/content/Mechanics.md
     # - external: https://github.com/Natuurkunde/Broekzakdemos/blob/main/content/Electricity.md
     # - external: https://github.com/Natuurkunde/Broekzakdemos/blob/main/content/Magnetism.md
