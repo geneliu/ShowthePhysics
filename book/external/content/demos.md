@@ -4,6 +4,9 @@ numbering:
     enabled: true
     offset: 0
 ---
+```{note}
+This page originates from Natuurkunde/Broekzakdemos.git, version: main
+```
 
 # Introduction
 
