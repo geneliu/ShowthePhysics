@@ -1,0 +1,170 @@
+# ToC file with localized paths. Used for Teachbooks' external content feature.
+format: jb-book
+parts:
+- caption: Introduction
+  chapters:
+  - file: Introduction/About
+  - file: Introduction/Foreword
+  - file: Introduction/Preface2
+  - file: Introduction/Authors
+  - file: Introduction/NVON
+  - file: Introduction/Python summary
+  - file: Introduction/tableOC
+  numbered: true
+- caption: Pedagogy
+  chapters:
+  - file: Pedagogy/Introduction
+  - file: Pedagogy/Nos
+  - file: Pedagogy/Argumentation
+  - file: Pedagogy/BackAndForthThinking
+  - file: Pedagogy/PoE
+  numbered: 2
+- caption: Demos on Nature of Science
+  chapters:
+  - file: demos/NOSdemos
+    sections:
+    - file: demos/demo40/demo40
+    - file: demos/demo01/demo01
+    - file: demos/demo59/demo59
+    - file: demos/demo70/demo70
+    - file: demos/demo71/demo71
+    - file: demos/demo72/demo72
+    - file: demos/demo91/demo91
+    - file: demos/demo08/demo08
+    title: Demos on NoS
+  numbered: 2
+- caption: Demos on scientific inquiry
+  chapters:
+  - file: demos/Inquirydemos
+    sections:
+    - file: demos/demo09/demo09
+    - file: demos/demo10/demo10
+    - file: demos/demo27/demo27
+    - file: demos/demo37/demo37
+    - file: demos/demo39/demo39
+    - file: demos/demo41/demo41
+    - file: demos/demo60/demo60
+    - file: demos/demo61/demo61
+    - file: demos/demo62/demo62.ipynb
+    - file: demos/demo65/demo65
+    - file: demos/demo73/demo73
+    - file: demos/demo92/demo92
+    title: Demos on scientific inquiry
+  numbered: 2
+- caption: Demos for conceptual development
+  chapters:
+  - file: demos/Conceptdemos1
+    sections:
+    - file: demos/demo03/demo03
+    - file: demos/demo20/demo20
+    - file: demos/demo21/demo21
+    - file: demos/demo22/demo22
+    - file: demos/demo23/demo23
+    - file: demos/demo24/demo24
+    - file: demos/demo33/demo33
+    - file: demos/demo74/demo74
+    - file: demos/demo77/demo77
+    - file: demos/demo79/demo79
+    - file: demos/demo80/demo80
+    - file: demos/demo81/demo81.ipynb
+    - file: demos/demo83/demo83
+    - file: demos/demo87/demo87
+    - file: demos/demo49/demo49
+    - file: demos/demo50/demo50
+    - file: demos/demo51/demo51
+    - file: demos/demo53/demo53
+  - file: demos/Conceptdemos2
+    sections:
+    - file: demos/demo19/demo19
+    - file: demos/demo31/demo31
+    - file: demos/demo47/demo47
+    - file: demos/demo48/demo48
+    - file: demos/demo84/demo84
+    - file: demos/demo85/demo85.ipynb
+    - file: demos/demo86/demo86
+    - file: demos/demo94/demo94
+  - file: demos/Conceptdemos3
+    sections:
+    - file: demos/demo05/demo05
+    - file: demos/demo11/demo11
+    - file: demos/demo12/demo12
+    - file: demos/demo13/demo13
+    - file: demos/demo14/demo14
+    - file: demos/demo15/demo15
+    - file: demos/demo16/demo16
+    - file: demos/demo17/demo17
+    - file: demos/demo18/demo18
+    - file: demos/demo25/demo25
+    - file: demos/demo26/demo26
+    - file: demos/demo45/demo45
+    - file: demos/demo46/demo46
+    - file: demos/demo66/demo66
+    - file: demos/demo78/demo78
+    - file: demos/demo68/demo68
+    - file: demos/demo69/demo69
+    - file: demos/demo58/demo58
+  - file: demos/Conceptdemos4
+    sections:
+    - file: demos/demo02/demo02
+    - file: demos/demo34/demo34
+    - file: demos/demo28/demo28
+    - file: demos/demo36/demo36
+    - file: demos/demo64/demo64
+    - file: demos/demo38/demo38
+    - file: demos/demo42/demo42
+    - file: demos/demo63/demo63
+    - file: demos/demo75/demo75
+    - file: demos/demo99/demo99
+  - file: demos/Conceptdemos5
+    sections:
+    - file: demos/demo29/demo29
+    - file: demos/demo30/demo30
+    - file: demos/demo32/demo32
+    - file: demos/demo43/demo43
+    - file: demos/demo44/demo44
+    - file: demos/demo57/demo57
+    - file: demos/demo67/demo67
+    - file: demos/demo76/demo76
+    - file: demos/demo82/demo82
+    - file: demos/demo52/demo52
+    - file: demos/demo93/demo93
+    - file: demos/demo95/demo95
+    - file: demos/demo96/demo96
+    - file: demos/demo97/demo97
+  numbered: 2
+- caption: Demos for special occasions
+  chapters:
+  - file: demos/Specialdemos
+    sections:
+    - file: demos/demo06/demo06
+    - file: demos/demo04/demo04
+    - file: demos/demo07/demo07
+    - file: demos/demo35/demo35
+    - file: demos/demo54/demo54
+    - file: demos/demo55/demo55
+    - file: demos/demo88/demo88
+    - file: demos/demo89/demo89
+    - file: demos/demo90/demo90
+    - file: demos/demo56/demo56
+    - file: demos/demo98/demo98
+    title: Demos for special occasions
+  numbered: 2
+- caption: Pocket demos
+  chapters:
+  - file: external/content/demos.md
+  - file: external/content/Mechanics.md
+  - file: external/content/Electricity.md
+  - file: external/content/Light.md
+  - file: external/content/Oscillations.md
+  - file: external/content/Sound.md
+  - file: external/content/Liquids.md
+  - file: external/content/Magnetism.md
+  - file: external/content/Heat.md
+  - file: external/content/Earthscience.md
+  - file: external/content/Modernphysics.md
+  - file: _git/github.com_Natuurkunde_Broekzakdemos/main/content/demos.md
+  numbered: 2
+- caption: References
+  chapters:
+  - file: references
+root: intro.md
