@@ -1,3 +1,9 @@
+---
+kernelspec:
+  name: python3
+  display_name: 'Python 3'
+---
+
 # Tug-of-War
 <span style="font-size: 25px; color: gray;">Can one girl be stronger than four boys?</span>
 <table style="width: 100%; border-collapse: collapse; border: none;">
@@ -65,6 +71,57 @@ $$2\cdot F_{\text{boys on rope}} \cdot sin(\theta) = -F_{\text{lady on rope}}$$
 $$\Rightarrow  F_{\text{boys on rope}} = \frac{-F_{\text{lady on rope}}}{2·sin(\theta)} $$
 
 Angle $\theta$ is the angle between rope and the horizontal and is very small, thus the vertical component of the force of the boys is very small. Therefore, minimal force is needed to bend the rope downwards. 
+
+```{code-cell} Python
+tag: hide-input
+
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.patches import Rectangle
+from matplotlib.transforms import Affine2D
+from ipywidgets import interact
+import ipywidgets as widgets
+
+# Constants
+def update(theta,F_girl):
+    # Compute arrow end coordinates
+    F_boys_y = F_girl / 2
+    F_boys_x = F_girl*np.tan(theta)/2
+    
+    # Clear figure
+    plt.clf()
+    fig, ax = plt.subplots()
+    ax.set_xlim(-20, 20)
+    ax.set_ylim(-20, 20)
+    ax.set_aspect('equal')
+    ax.grid(True)
+
+    # Draw arrow
+    
+    # rope
+    ax.arrow(0, 0, -20*np.sin(theta), 20*np.cos(theta),
+             head_width=0, head_length=0, fc='black', ec='black')
+    
+    ax.arrow(0, 0, 20*np.sin(theta), 20*np.cos(theta),
+             head_width=0, head_length=0, fc='black', ec='black')
+    
+    #Forces
+    ax.arrow(0, 0, 0, -F_girl,
+             head_width=1, head_length=1, fc='green', ec='green')
+
+    ax.arrow(0, 0, F_boys_x, F_boys_y,
+             head_width=1, head_length=1, fc='red', ec='red')
+    
+    ax.arrow(0, 0, -F_boys_x, F_boys_y,
+             head_width=1, head_length=1, fc='red', ec='red')
+
+    
+    plt.show()
+
+# Use FloatSlider for smooth interaction
+interact(update, theta=widgets.FloatSlider(min=0.1, max=np.pi/2, step=np.pi/16, value=np.pi/4),
+         F_girl=widgets.FloatSlider(min=3, max=10, step=1, value=3))
+```
 
 ## Follow-up
 Use photographs of cable car and power line set-ups to calculate the tension in the cables. See for instance this <a href="https://newsroom.nvon.nl/files/default/nah151vb.pdf" target="_blank">Dutch national exam question</a>.
