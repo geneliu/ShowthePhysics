@@ -1,9 +1,3 @@
----
-kernelspec:
-  name: python3
-  display_name: 'Python 3'
----
-
 # Tug-of-War
 <span style="font-size: 25px; color: gray;">Can one girl be stronger than four boys?</span>
 <table style="width: 100%; border-collapse: collapse; border: none;">
